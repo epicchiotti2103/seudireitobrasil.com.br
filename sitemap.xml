@@ -2,32 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://seudireitobrasil.com.br/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://seudireitobrasil.com.br/blog/</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seudireitobrasil.com.br/sobre.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seudireitobrasil.com.br/contato.html</loc>
-    <lastmod>2025-01-15</lastmod>
+    <lastmod>2026-03-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://seudireitobrasil.com.br/privacidade.html</loc>
-    <lastmod>2025-01-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://seudireitobrasil.com.br/blog/aposentadoria-por-idade-requisitos-como-pedir/</loc>
+    <lastmod>2025-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/auxilio-doenca-como-funciona-o-que-mudou/</loc>
+    <lastmod>2025-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/bpc-loas-quem-tem-direito-como-solicitar/</loc>
+    <lastmod>2025-01-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/defensoria-publica-como-funciona-quem-tem-direito/</loc>
+    <lastmod>2025-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/demissao-sem-justa-causa-direitos-trabalhador/</loc>
+    <lastmod>2025-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/direitos-do-consumidor-compras-online-devolucao-7-dias/</loc>
+    <lastmod>2025-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/divorcio-consensual-como-fazer-documentos-custos/</loc>
+    <lastmod>2025-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/fgts-como-sacar-quando-posso-sacar/</loc>
+    <lastmod>2025-02-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/flagrante-direitos-do-preso-o-que-fazer/</loc>
+    <lastmod>2025-02-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/habeas-corpus-o-que-e-quando-cabe-como-pedir/</loc>
+    <lastmod>2025-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/juizado-especial-como-entrar-com-acao-sem-advogado/</loc>
+    <lastmod>2025-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/nome-negativado-indevidamente-o-que-fazer/</loc>
+    <lastmod>2025-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/pensao-alimenticia-filhos-como-calcular-valor/</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/procon-como-funciona-reclamacao-passo-a-passo/</loc>
+    <lastmod>2025-02-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://seudireitobrasil.com.br/blog/seguro-desemprego-quem-tem-direito-como-solicitar/</loc>
+    <lastmod>2025-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
