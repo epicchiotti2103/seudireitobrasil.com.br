@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigos — Seu Direito Brasil</title>
+  <meta name="description" content="Todos os artigos do Seu Direito Brasil: direito do consumidor, trabalhista, previdenciário, família, penal e cidadania.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://seudireitobrasil.com.br/blog/">
+  <meta property="og:title" content="Artigos — Seu Direito Brasil">
+  <meta property="og:description" content="Artigos sobre legislação brasileira e direitos do cidadão.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://seudireitobrasil.com.br/blog/">
+  <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="/" class="nav-brand">
+        <img src="/assets/img/logo.svg" alt="Seu Direito Brasil" width="220" height="40">
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Início</a></li>
+        <li><a href="/blog/" class="active">Artigos</a></li>
+        <li><a href="/sobre.html">Sobre</a></li>
+        <li><a href="/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="blog-header">
+    <div class="container">
+      <h1>Artigos</h1>
+      <p>Conteúdo jurídico atualizado, escrito em linguagem acessível</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <!-- Filtros por categoria -->
+      <div class="category-filters" id="cat-filters">
+        <button class="cat-btn active" data-cat="all">Todos</button>
+        <button class="cat-btn" data-cat="consumidor">Consumidor</button>
+        <button class="cat-btn" data-cat="trabalhista">Trabalhista</button>
+        <button class="cat-btn" data-cat="previdenciario">Previdenciário</button>
+        <button class="cat-btn" data-cat="familia">Família</button>
+        <button class="cat-btn" data-cat="penal">Penal</button>
+        <button class="cat-btn" data-cat="cidadania">Cidadania</button>
+      </div>
+
+      <!-- PLACEHOLDER: build_site.py gera a listagem real -->
+      <div class="articles-grid" id="articles-list">
+        <div class="cta-banner" style="grid-column: 1 / -1;">
+          <h2>Artigos em breve</h2>
+          <p>Estamos produzindo conteúdo de qualidade sobre seus direitos. Volte em breve!</p>
+          <a href="/sobre.html" class="btn btn-gold">Conheça nossa equipe</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/img/logo.svg" alt="Seu Direito Brasil" width="180" height="32" style="margin-bottom: 1rem;">
+          <p>Informação jurídica confiável, escrita de forma acessível e revisada por profissionais do direito.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/blog/">Artigos</a></li>
+            <li><a href="/sobre.html">Sobre nós</a></li>
+            <li><a href="/contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="/privacidade.html">Política de Privacidade</a></li>
+            <li><a href="/sobre.html#editorial">Política Editorial</a></li>
+            <li><a href="/sobre.html#fontes">Nossas Fontes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Seu Direito Brasil. Todos os direitos reservados.</span>
+        <span>Conteúdo informativo — não substitui orientação jurídica profissional.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+  <script>
+    // Filtro por categoria via ?cat= na URL e botões
+    document.addEventListener('DOMContentLoaded', function () {
+      var params = new URLSearchParams(window.location.search);
+      var activeCat = params.get('cat') || 'all';
+      var buttons = document.querySelectorAll('.cat-btn');
+      var cards = document.querySelectorAll('.article-card');
+
+      function filterCards(cat) {
+        cards.forEach(function (card) {
+          if (cat === 'all' || card.dataset.cat === cat) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        buttons.forEach(function (btn) {
+          btn.classList.toggle('active', btn.dataset.cat === cat);
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var cat = btn.dataset.cat;
+          filterCards(cat);
+          var url = cat === 'all' ? '/blog/' : '/blog/?cat=' + cat;
+          history.replaceState(null, '', url);
+        });
+      });
+
+      // Ativar filtro da URL
+      filterCards(activeCat);
+    });
+  </script>
+</body>
+</html>

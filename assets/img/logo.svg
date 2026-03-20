@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50" width="280" height="50">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9a84c"/>
+      <stop offset="100%" style="stop-color:#d4b85e"/>
+    </linearGradient>
+  </defs>
+  <!-- Scales icon -->
+  <g transform="translate(5,5)">
+    <!-- Pillar -->
+    <rect x="17" y="8" width="3" height="28" rx="1" fill="url(#gold)"/>
+    <!-- Base -->
+    <rect x="10" y="34" width="17" height="3" rx="1.5" fill="url(#gold)"/>
+    <!-- Beam -->
+    <rect x="4" y="6" width="29" height="2.5" rx="1.25" fill="url(#gold)"/>
+    <!-- Left pan -->
+    <line x1="8" y1="8.5" x2="4" y2="20" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="8" y1="8.5" x2="12" y2="20" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M2,20 Q8,25 14,20" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Right pan -->
+    <line x1="29" y1="8.5" x2="25" y2="18" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="29" y1="8.5" x2="33" y2="18" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M23,18 Q29,23 35,18" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Text -->
+  <text x="50" y="26" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#ffffff">Seu Direito</text>
+  <text x="176" y="26" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="700" fill="#c9a84c"> Brasil</text>
+  <text x="50" y="42" font-family="'Segoe UI', Tahoma, sans-serif" font-size="9" font-weight="400" fill="#8d96a5" letter-spacing="0.12em">INFORMAÇÃO JURÍDICA CONFIÁVEL</text>
+</svg>
