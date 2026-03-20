@@ -1,0 +1,30 @@
+# Seu Direito Brasil
+> Informação jurídica acessível sobre legislação brasileira, escrita para leigos e revisada por profissionais do direito.
+
+## Sobre
+- Site: https://seudireitobrasil.com.br
+- Tipo: Portal editorial de informação jurídica
+- Idioma: Português (Brasil)
+- Público: Cidadãos brasileiros buscando entender seus direitos
+
+## Áreas cobertas
+- Direito do Consumidor (CDC, Procon, compras online)
+- Direito Trabalhista (CLT, rescisão, FGTS, seguro-desemprego)
+- Direito Previdenciário (INSS, aposentadoria, BPC/LOAS)
+- Direito de Família (divórcio, pensão alimentícia, guarda)
+- Direito Penal (flagrante, habeas corpus, direitos do preso)
+- Cidadania (Juizado Especial, Defensoria Pública, acesso à justiça)
+
+## Fontes
+- Legislação federal: planalto.gov.br
+- Jurisprudência: STF, STJ, TRFs, TRTs
+- Órgãos oficiais: INSS, Procon, CNJ
+
+## Política editorial
+https://seudireitobrasil.com.br/sobre.html
+
+## Sitemap
+https://seudireitobrasil.com.br/sitemap.xml
+
+## Aviso
+Conteúdo informativo. Não constitui aconselhamento jurídico.
